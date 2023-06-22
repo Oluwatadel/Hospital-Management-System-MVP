@@ -21,3 +21,13 @@ function changeImg(){
 }
 
 window.onload = changeImg;
+
+// Javascript to activate the harmburger menu
+
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-items');
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
