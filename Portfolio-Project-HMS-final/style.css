@@ -255,7 +255,7 @@ footer p {
 .social-what img{
     color: #ffffff;
 }
-.social-fb, .social-twit, .social-what {
+.social-fb, .social-twit, .social-what{
     padding: 7px 10px 5px 10px;
     border-radius: 25px;
     border: 2px solid white;
@@ -403,6 +403,10 @@ footer img {
         padding-bottom: 20px;
     }
 
+    .container{
+        flex-direction: column;
+    }
+
     /* hamburger styling */
     .hamburger {
         display: block;
@@ -460,7 +464,7 @@ footer img {
         }
 
     .boxes .box {
-        margin-top: 10px;
+        margin: auto;
     }
     .boxes .btn {
         width: 40%;
@@ -544,15 +548,15 @@ footer img {
     font-size: 12px;
     border-radius: 5px;
     height: 1.5rem;
+    margin-bottom: 1rem;
    }
 
    .blog-1-left .pics,
    .blog-1-up .pics2 {
-    width: 80%;
+    width: 88%;
     height: 17rem;
    }
 
-   
 
 
 }
