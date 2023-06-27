@@ -60,3 +60,26 @@ body{
     text-decoration: none;
     color: #36a19a;
 }
+
+@media only screen and (max-width: 767px){
+
+    .container {
+        width: 80%;
+    }
+
+    .reg {
+        /* background-color: #36a19a; */
+        padding: 6px 6px;
+    }
+
+
+    .reg h2{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .login a,
+    .login {
+        font-size: 15px;
+    }
+}
