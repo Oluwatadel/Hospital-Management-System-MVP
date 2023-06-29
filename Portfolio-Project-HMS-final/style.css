@@ -12,7 +12,7 @@ body{
     background-color: #f4f4f4;
 }
 /* Global */
-.container{
+.container1{
     width: 92%;
     margin: auto;
     overflow: hidden;
@@ -20,6 +20,14 @@ body{
     flex-direction: column;
 }
 
+.container3{
+    width: 90%;
+    margin: auto;
+    /* overflow: hidden; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
 
 
 ul{
@@ -119,7 +127,7 @@ header a:hover{
 }
 
 .showcase h1{
-    margin-top: 12rem;
+    padding-top: 12rem;
     font-size: 55px;
     margin-bottom: 10px;
     line-height: 3.5rem;
@@ -138,6 +146,9 @@ header a:hover{
 .showcase{
     font-size: 20px;
 }
+
+
+
 .container-btn .app-btn{
     background-color: #e8491d;
     padding: 15px 25px;
@@ -178,7 +189,7 @@ header a:hover{
 
 /* Boxes */
 .boxes{
-    margin-top: 20px;
+    margin-top: 30px;
     /* align-items: center; */
 }
 .boxes .box{
@@ -237,6 +248,14 @@ footer {
     background-color: #35424a;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -403,7 +422,11 @@ footer img {
         padding-bottom: 20px;
     }
 
-    .container{
+    .container1{
+        width: 85%;
+    }
+
+    .container3{
         flex-direction: column;
     }
 
@@ -453,18 +476,18 @@ footer img {
     .showcase {
         min-height: 242px;
     }
+
     .showcase h1{
-        margin-top: 40px;
-        /* margin-top: 12rem; */
-        font-size: 28px;
+        padding-top: 3rem;
+        margin-top: 0rem;
+        font-size: 25px;
         margin-bottom: 10px;
         line-height: 2.5rem;
         color: #ffffff;
-            /* z-index: 2; */
         }
 
     .boxes .box {
-        margin: auto;
+        margin: auto auto 35px;
     }
     .boxes .btn {
         width: 40%;
@@ -475,8 +498,8 @@ footer img {
     }
     
     .container-btn .app-btn {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
         font-size: 10px;
         padding: 9px 11px;
     }
@@ -553,11 +576,21 @@ footer img {
 
    .blog-1-left .pics,
    .blog-1-up .pics2 {
-    width: 88%;
-    height: 17rem;
+        width: 88%;
+        height: 17rem;
    }
 
-
+   .container {
+        flex-direction: column;
+}
+   
+   .newsletter h2{
+    font-size: 15px;
+    text-align: center;
+}
+    .newsletter input[type="email"]{
+        width: 200px;
+}
 
 }
 
